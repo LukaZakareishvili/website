@@ -1,0 +1,62 @@
+--HTML
+
+<!DOCTYPE html>
+
+<html>
+    
+  <head>
+    <title></title> 
+      <meta charset=utf -8>
+      <meta name="description" lang="" content="web page deskr">
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+    </head>
+    <body>
+<div class="container">
+    <div class="login-box">
+        <h1>WATCH</h1>
+        <p>Enjoy the newest movies</p>
+        <button class="login-btn">Log In</button>
+        <p>No account? <span class="signup">Sign up</span></p>
+    </div>
+</div>
+
+</body>
+</html>
+
+--CSS
+
+body, html {
+    margin: 0;
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background: url("https://blog.daisie.com/content/images/2022/05/film-camera.png");
+}
+
+.login-box {
+    text-align: center;
+    padding: 40px;
+    background-color: rgba(0,0,0,0.5);
+}
+
+h1 {
+   color:white; 
+}
+
+p {
+   color:white; 
+}
+
+.login-btn {
+   padding: 10px 20px; 
+   color:white; 
+   background-color:#6200ea; 
+   border:none; 
+}
