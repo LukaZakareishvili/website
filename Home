@@ -1,0 +1,150 @@
+--HTML
+
+<!DOCTYPE html>
+
+<html>
+    
+  <head>
+    <title></title> 
+      <meta charset=utf -8>
+      <meta name="description" lang="" content="web page deskr">
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+    </head>
+    <body>
+<div id="container">
+    <div id="sidebar">
+        <ul>
+            <li style="margin-bottom: 15px; font-size: 1.5em">Home</li>
+            <li style="margin-bottom: 15px; font-size: 1.5em">Favourites</li>
+            <li style="margin-bottom: 15px; font-size: 1.5em">Trending</li>
+            <li style="margin-bottom: 15px; font-size: 1.5em">Coming soon</li>
+            <li style="margin-top: 350px; font-size: 1.5em">Community</li>
+            <li style="margin-top: 15px; font-size: 1.5em">Social</li>
+            <li style="margin-top: 250px; font-size: 1.5em">Settings</li>
+            <li style="margin-top: 10px; font-size: 1.5em">Logout</li>
+        </ul>
+    </div>
+    <div id="main-content">
+        <div id="header">
+            <h1>WATCH</h1>
+            <ul>
+                <li>Movies</li>
+                <li>Series</li>
+                <li>Documentaries</li>
+            </ul>
+        </div>
+        <div id="featured-movie">
+            <h2>Insider</h2>
+            <p>2022 | Comedy horror | 1 Season</p>
+            <button>Watch now</button>
+        </div>
+        <div id="trending-movies" style="background-color: darkslategrey; height: 365px">
+            <h3>Trending at this moment</h3>
+            <ul>
+                <li>Tokyo Train</li>
+                <li>Moonfall Again</li>
+                <li>Life in Paris</li>
+                <li>House of Gucci</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+
+</body>
+</html>
+
+--CSS
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    display: flex;
+}
+
+#sidebar {
+    width: 20%;
+	height: 919px;
+    background-color: black;
+    color: white;
+}
+
+#main-content {
+    width: 80%;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: purple;
+    color: white;
+}
+
+#header h1 {
+    font-size: 30px;
+}
+
+#header ul {
+    display: flex;
+    list-style-type: none;
+}
+
+#header li {
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+#featured-movie {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    background-image: url('https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p24100_v_h9_aa.jpg');
+    background-size: cover;
+    color: white;
+}
+
+#featured-movie h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+#featured-movie p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+#featured-movie button {
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: #6200ea;
+    color: white;
+    border: none;
+}
+
+#trending-movies {
+    padding: 20px;
+}
+
+#trending-movies h3 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+#trending-movies ul {
+    list-style-type: none;
+}
+
+#trending-movies li {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
